@@ -1,6 +1,8 @@
 {
   "info": {
+    "_postman_id": "3bb254fe-15e8-4ee3-9fe5-5538fb5a984e",
     "name": "Ecommerce - Proyecto Final",
+    "description": "Pruebas del broker, servicio de productos y servicio de pedidos.",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "auth": {
@@ -16,15 +18,18 @@
   "variable": [
     {
       "key": "broker",
-      "value": "http://localhost:8080"
+      "value": "http://localhost:8080",
+      "type": "string"
     },
     {
       "key": "token",
-      "value": ""
+      "value": "",
+      "type": "string"
     },
     {
       "key": "productoId",
-      "value": ""
+      "value": "",
+      "type": "string"
     }
   ],
   "item": [
